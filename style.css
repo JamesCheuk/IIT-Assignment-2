@@ -40,13 +40,13 @@ hr {
 
 ul {
 	padding-bottom: 15px;
-	color: #7B2D26;
+	color: #660A0A;
 	font-size:110%;
 }
 
 ol {
 	padding-bottom: 15px;
-	color: #7B2D26;
+	color: #660A0A;
 	font-size:110%;
 }
 
@@ -60,7 +60,7 @@ section {
 p {
 	font-size: 110%;
 	line-height: 150%;
-	color: #7B2D26;
+	color: #660A0A;
 	margin-bottom: 25px;
 	margin-left: 25px;
 	margin-right: 25px;
@@ -98,7 +98,7 @@ button {
 
 table{
 	font-size: 110%;
-	color: #7B2D26;
+	color: #660A0A;
 	width: 95%;
 	margin-left: 20px;
 }
