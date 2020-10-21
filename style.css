@@ -1,35 +1,35 @@
 body {
-	background-color: #383D3B;
+	background-color: #56667A;
 }
 
 h1 {
 	font-size: 300%;
-	color: white;
+	color: #084C61;
 	text-align: center;
 	padding-top: 25px;
 }
 
 h2 {
 	font-size: 175%;
-	color: #92B4F4;
+	color: black;
 	margin-left: 10px;
 	padding-top:10px;
 }
 
 h3 {
 	font-size: 150%;
-	color: #B3CDED;
+	color: #223843;
 	margin-left: 15px;
 }
 
 h4{
-	color: white;
+	color: #323031;
 	margin-left: 50px;
 	font-size: 130%;
 }
 
 h5 {
-	color: white;
+	color: #323031;
 	margin-left: 35px;
 	font-size: 125%;
 }
@@ -40,13 +40,13 @@ hr {
 
 ul {
 	padding-bottom: 15px;
-	color: #EC9A29;
+	color: #7B2D26;
 	font-size:110%;
 }
 
 ol {
 	padding-bottom: 15px;
-	color: #EC9A29;
+	color: #7B2D26;
 	font-size:110%;
 }
 
@@ -54,26 +54,25 @@ section {
 	width: 90%;
 	max-width: 750px;
 	margin: 30px auto;
-	background: #2B303A;
+	background: #D7C9AA;
 }
 
 p {
 	font-size: 110%;
 	line-height: 150%;
-	color: #EC9A29;
+	color: #7B2D26;
 	margin-bottom: 25px;
 	margin-left: 25px;
 	margin-right: 25px;
 	padding-bottom: 25px;
 }
-
 br {
 	margin-bottom: 10px;
 }
 
 a {
 	margin-left: 25px;
-	color: white;
+	color: blue;
 }
 	
 img {
@@ -85,7 +84,7 @@ img {
 }
 
 button {
-	background-color: #008CBA;
+	background-color: #DB3A34;
 	border: none;
 	color: white;
 	padding: 15px 30px;
@@ -99,7 +98,7 @@ button {
 
 table{
 	font-size: 110%;
-	color: #EC9A29;
+	color: #7B2D26;
 	width: 95%;
 	margin-left: 20px;
 }
