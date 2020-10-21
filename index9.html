@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Triggered - Project Idea</title>
+		<link rel="stylesheet" href="style.css" >
+	</head>
+	<section>
+		<article>
+			<h1>Project Idea – Location Triggered Alarm ‘Never Miss a Stop’ </h1>
+			<h2>6.1	Overview </h2>
+			<p>
+				This project will aim to create a mobile application which has a location triggered alarm. 
+				The user will be able to choose a location from a map and set how far away from the target location the alarm will go off. <br>
+				It will also contain features that will save the users’ alarms, allow certain customisation options for the alarms, offer online or offline option and operate in the background like regular stock alarms that come with all mobile devices. 
+			</p>
+			<h2>6.2	Motivation  </h2>
+			<p>
+				This would be an application that is targeted towards users who frequently travel on public transportation. With the busy and fast paced lifestyle of our everyday lives, moments on public transportation becomes a great time to catch up on some sleep. <br>
+				As a result of catching up on some sleep, we may inadvertently miss our stop and thus waste valuable time and this can cause anxiety and stress that would impact the quality of sleep. 
+				This application aims to put these anxieties aside so the user can sleep knowing this application will wake them up when they are nearing their destination. 
+			</p>
+			<h2>6.3	Description </h2>
+			<p>
+				This application in the simplest terms is an alarm with location tracking capabilities. The application will require access to the device’s time and date, GPS services and limited internet access. In order to minimise data usage, a map of the city of the user’s choosing will be installed when the application is opened for the first time, which will allow offline usage. 
+			</p>
+			<h3>6.3.1	Key User Features </h3>
+			<p>
+				The most important thing from a user’s perspective is the ability to accurately set the destination, the timing of when the alarm triggers (i.e. the distance from destination for the alarm to trigger) and being able to customise each alarm they set up by changing the ringtone, vibration settings and distance to set off alarm. 
+			</p>
+			<h3>6.3.2	Design and Layout </h3>
+			<p>
+				The application will open to a home screen, which will be a map with the user’s current location displayed. At the top of the screen will be: 
+			</p>
+			<ul>
+				<li>A search bar where the user can find their destination and when they press search, they will be directed to the search result screen </li>
+				<li>On the left side will be a menu that can be accessed by swiping the left edge of the screen that will have buttons for viewing existing saved alarms, updating the installed map and settings </li>
+			</ul>
+			<p>
+				The search result screen will have a display in the top half of the screen showing the destination, and the bottom half of the screen will have, with scrolling function: 
+			</p>
+			<ul>
+				<li>A drop box for the user to select how far away from the destination for the alarm to start going off (from 300m to 1km) </li>
+				<li>A text box to give the alarm a name </li>
+				<li>An option to select a ring tone from existing music files (it will default to the user’s current ring tone) </li>
+				<li>A checkbox for whether it should be on repeat </li>
+				<p><b>Note</b> - If checked, new options will appear allowing the user to select which day(s) to repeat on and after what time to become active </p>
+				<li>Two buttons side by side, one to save the alarm, one to cancel and return to the previous screen </li>
+			</ul>
+			<p>
+				The saved alarms screen will be where the user will be able to view all their saved alarms, with each save file displaying its name, destination, distance to destination to ring, whether it repeats and the option to turn the alarm on/off. 
+				The user will also be able to make modifications to existing saved alarms by tapping the save file which will lead the user to the search result screen to make the changes and save them. <br>
+				This screen will also offer the user the choice to delete any saved alarm by dragging it to a disposal area at the bottom of the screen. <br>
+				The update maps button from the side menu will connect the device to a server that holds all the maps available to the users. A comparison will be made of the map version on the device against the version available on the server, if the versions do not match the user will be given a prompt to update the existing map. 
+				Prior to updating the map, if the device is not connected to Wi-Fi the user will be given a warning regarding excessive data usage. <br>
+				The settings page will be where the user can choose their tracking method (GPS, network or both), view application version, patch notes and contact the developer should any issue arise while they are using the application. 
+			</p>
+			<h2>6.4	Tools and Technologies </h2>
+			<p>
+				The tools and technologies required for the project are as follows: 
+			</p>
+			<h3>Java Programming language and Eclipse Integrated Development Environment (IDE)</h3>
+			<p>
+				 An Object-Orientated Programming (OOP) language which allows the developer to focus on what data they would need and how these data would interact with each other to produce the desired result. This would all be done on the Eclipse IDE which offers the developer various tools they would need to develop the application such as code editor, compiler and debugger.
+			</p>
+			<h3>Google Maps Platform</h3>
+			<p>
+				This gives us access to the functions Google Maps use, as well as customise it in a way to suit our needs. This will give the application the maps it would need to work, along with routing functions if the application wishes to expand to asking how the user is travelling for a more accurate timing of the alarm trigger.  
+			</p>
+			<h2>6.5	Skills Required </h2>
+			<p>
+				The skills required to deliver the project are as follows: 
+			</p>
+			<h3>Java Developer</h3>
+			<p>
+				Outstanding knowledge of the Java language will be required along with familiarity with the Eclipse IDE. This skill and knowledge will be the backbone of the application, with the code being able to access and use location data from the phone, access and trigger the device’s vibration (if set on) and ringtone when a pre-set distance from the destination. 
+			</p>
+			<h3>SQL Developer </h3>
+			<p>
+				As there are plans to hold a database of maps which will be available for downloading, knowledge of SQL will be required to set up, access, retrieve and edit the data stored as well as maintaining the server. 
+				These will allow users of our application to have a reliable source of maps to download for offline use, allowing the app to be used in places where internet reception would be poor as well as reduce the amount of data used by the application. <br>
+				Other related skills that would be expected from a SQL developer include preparing the documents to be put into the database (in this case the maps), memory management of the server, taking regular database backups and perform bug fixes.  
+			</p>
+			<h3>UX Designer</h3>
+			<p>
+				In order to make the application look and feel good to use, knowledge and skill in UX designing will be necessary. The primary purpose of this skill is to make the application as easy to use as possible so it doesn’t form a barrier that prevents people from using it. <br>
+				This skill will be used to designing the user interface (menus, tabs and widgets), the navigation buttons and search fields the application needs, identify and troubleshoot any UI issues and make any adjustments based on user feedback. 
+			</p>
+			<h3>Business Analyst </h3>
+			<p>
+				The business analyst will document the requirements for the application. The requirements will document key features and behaviours that the application will need to fulfill for the end users. 
+			</p>
+			<h3>Tester</h3>
+			<p>
+				A tester will test the application before it is released to the general public through the app store. The purpose is to ensure that the application is fully operational and meets the specifications listed in the business requirements. 
+			</p>
+			<h2>6.6	Outcome </h2>
+			<p>
+				Assuming the project is successful, it will allow regular public transportation users to rest on their journey without having to worry about oversleeping and missing their stop. 
+				If this application gets enough following, it would be possible that the stock alarms that come with most mobile devices will look to incorporate a location trigger function and become the new standard, and this project will be the spark that brings about this change.  <br>
+				From a user’s perspective, the fully workable iOS or Android application would be downloadable from either the App Store or Google Play Store that will allow the use to:
+			</p>
+			<ol>
+				<li>Set a destination they would like the alarm to go off based on the GPS location of the mobile device </li>
+				<li>Set a how far out from the distance that the user would like the alarm to go off (1km to 200 metres) from the destination </li>
+				<li>Select the route that will be followed to increase the accuracy of the alarm</li>
+				<li>Enable the user to tone of the alarm or whether the mobile device will vibrate.  </li>
+			</ol>
+			<hr>
+			<h2>References </h2>
+			<p>
+			Mehta, J., 2013. Don't Oversleep Now; Here's A Location Triggered Alarm For Indian Passengers: Tring On Train. [online] YourStory.com. Available at: <https://yourstory.com/2013/01/dont-oversleep-now-heres-a-location-triggered-alarm-for-indian-passengers-tring-on-train> [Accessed 16 September 2020]. <br>
+			Thomas, D., 2017. Set Up Location Alarms On Android That Wake You When You Reach Your Destination. [online] Gadget Hacks. Available at: <https://android.gadgethacks.com/how-to/set-up-location-alarms-android-wake-you-when-you-reach-your-destination-0176061/> [Accessed 16 September 2020]. <br>
+			Play.google.com. 2020. [online] Available at: <https://play.google.com/store/apps/details?id=com.prax6apps.alarm_me> [Accessed 16 September 2020]. <br>
+			Play.google.com. 2020. [online] Available at: <https://play.google.com/store/apps/details?id=com.prax6apps.alarm_me&showAllReviews=true> [Accessed 16 September 2020]. <br>
+			Play.google.com. 2020. [online] Available at: <https://play.google.com/store/apps/details?id=yash.naplarmuno> [Accessed 16 September 2020]. <br>
+			Play.google.com. 2020. [online] Available at: <https://play.google.com/store/apps/details?id=yash.naplarmuno&showAllReviews=true> [Accessed 16 September 2020]. <br>
+			Rouse, M., 2020. What Is Object-Oriented Programming (OOP)?. [online] SearchAppArchitecture. Available at: <https://searchapparchitecture.techtarget.com/definition/object-oriented-programming-OOP> [Accessed 16 September 2020]. <br>
+			India, Y., 2020. 5 Best Free IDE's To Speed Up Android App Development. [online] Blog - Your Team in India. Available at: <https://www.yourteaminindia.com/blog/best-free-ide-android-app-development/> [Accessed 16 September 2020]. <br>
+			Austins, C., 2020. Top 6 Programming Languages For Mobile App Development - Dzone Mobile. [online] dzone.com. Available at: <https://dzone.com/articles/top-6-programming-languages-for-mobile-app-develop> [Accessed 16 September 2020]. <br>
+			Sqlcourse.com. 2020. Sqlcourse - Lesson 1: What Is SQL?. [online] Available at: <http://www.sqlcourse.com/intro.html> [Accessed 16 September 2020]. <br>
+			Hire Intelligence Australia. 2020. Rent A Server | Data Storage Hire | Hire Intelligence. [online] Available at: <https://www.hire-intelligence.com.au/servers/> [Accessed 16 September 2020]. <br>
+			Subramanian, S., 2020. Roles And Responsibilities Of SQL Developer. [online] C-sharpcorner.com. Available at: <https://www.c-sharpcorner.com/article/roles-and-responsibilities-of-sql-developer/> [Accessed 18 Oct. 2020].  <br>
+			Anon, 2020. UI/UX Designer job description template | Workable. [online] Recruiting Resources: How to Recruit and Hire Better. Available at: <https://resources.workable.com/ui-ux-designer-job-description> [Accessed 18 Oct. 2020]. <br>
+			</p>
+		</article>
+	</section>
+</html>
